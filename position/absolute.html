@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .dis{
+            width: 100px;
+            height: 100px;
+            background: blue; 
+        }
+        .test{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+        .pre{
+            width: 200px;
+            height: 200px;
+            background: blueviolet;
+            margin-left: 300px;
+            margin-top: 300px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="dis"></div> -->
+    <div class="pre">
+        <div class="test"></div>
+    </div>
+</body>
+</html>
