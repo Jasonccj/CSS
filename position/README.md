@@ -51,3 +51,8 @@ bottom: -150px;
 规定应该从父元素继承 position 属性的值   
 
 
+### z-index层级关系
+可以设置元素的叠加顺序,但依赖定位属性
+z-index大的元素会覆盖z-index小的元素
+z-index为auto的元素不参与层级比较
+z-index为负值,元素被普通流中的元素覆盖
