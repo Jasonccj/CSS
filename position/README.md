@@ -45,3 +45,7 @@ bottom: -150px;
 
 定位类似于absolute,以当前窗口进行定位.不过fixed定位不受其他任何定位元素影响
 
+###position=inherit(脱离标准文档流)
+规定应该从父元素继承 position 属性的值   
+
+
