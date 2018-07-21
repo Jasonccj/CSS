@@ -1,7 +1,7 @@
 # CSS
 :balloon:  后端人员强化前端CSS
 
-## 目前整理了position定位相关内容
+目前整理了position定位相关内容
 
 ### 文档流
  以下均在标准流中,无特殊的定位
@@ -43,4 +43,22 @@ bottom: -150px;
 </div>
 ```
 ------
+
+### position=fixed(脱离标准文档流)
+固定定位
+
+定位类似于absolute,以当前窗口进行定位.不过fixed定位不受其他任何定位元素影响
+
+### position=inherit(脱离标准文档流)
+规定应该从父元素继承 position 属性的值   
+
+
+### z-index层级关系
+可以设置元素的叠加顺序,但依赖定位属性
+z-index大的元素会覆盖z-index小的元素
+z-index为auto的元素不参与层级比较
+z-index为负值,元素被普通流中的元素覆盖
+
+example.html例子
+左侧悬浮菜单
 

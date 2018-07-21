@@ -56,3 +56,6 @@ bottom: -150px;
 z-index大的元素会覆盖z-index小的元素
 z-index为auto的元素不参与层级比较
 z-index为负值,元素被普通流中的元素覆盖
+
+example.html例子
+左侧悬浮菜单
